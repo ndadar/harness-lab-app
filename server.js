@@ -11,6 +11,7 @@ const server = http.createServer((req, res) => {
 
   // Triggering Harness automated build
   // New comment
+  // test
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Harness CI/CD Sample App is running!\n');
 });
